@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ギャラリー - 今敏 公式サイト</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <a href="index.html" class="nav-logo-link">
+                    <div class="nav-logo">
+                        <h1>今敏</h1>
+                        <span>KON Satoshi</span>
+                    </div>
+                </a>
+                <ul class="nav-menu">
+                    <li><a href="index.html">ホーム</a></li>
+                    <li><a href="works.html">作品紹介</a></li>
+                    <li><a href="biography.html">経歴・活動</a></li>
+                    <li><a href="gallery.html" class="active">ギャラリー</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h2>ギャラリー</h2>
+                <p>今敏監督作品の美しい映像とアートワークをご覧ください</p>
+            </div>
+        </section>
+
+        <section class="gallery-filter">
+            <div class="container">
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">すべて</button>
+                    <button class="filter-btn" data-filter="perfect-blue">パーフェクトブルー</button>
+                    <button class="filter-btn" data-filter="millennium-actress">千年女優</button>
+                    <button class="filter-btn" data-filter="tokyo-godfathers">東京ゴッドファーザーズ</button>
+                    <button class="filter-btn" data-filter="paprika">パプリカ</button>
+                    <button class="filter-btn" data-filter="paranoia-agent">妄想代理人</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="gallery-grid">
+            <div class="container">
+                <div class="gallery-items">
+                    <!-- パーフェクトブルー -->
+                    <div class="gallery-item" data-category="perfect-blue">
+                        <img src="images/perfect-blue-1.jpg" alt="パーフェクトブルー シーン1">
+                        <div class="gallery-overlay">
+                            <h4>パーフェクトブルー</h4>
+                            <p>霧越未麻の心理描写</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="perfect-blue">
+                        <img src="images/perfect-blue-2.jpg" alt="パーフェクトブルー シーン2">
+                        <div class="gallery-overlay">
+                            <h4>パーフェクトブルー</h4>
+                            <p>現実と幻想の境界</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="perfect-blue">
+                        <img src="images/perfect-blue-3.jpg" alt="パーフェクトブルー シーン3">
+                        <div class="gallery-overlay">
+                            <h4>パーフェクトブルー</h4>
+                            <p>アイドルから俳優へ</p>
+                        </div>
+                    </div>
+
+                    <!-- 千年女優 -->
+                    <div class="gallery-item" data-category="millennium-actress">
+                        <img src="images/millennium-actress-1.jpg" alt="千年女優 シーン1">
+                        <div class="gallery-overlay">
+                            <h4>千年女優</h4>
+                            <p>藤原千代子の人生</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="millennium-actress">
+                        <img src="images/millennium-actress-2.jpg" alt="千年女優 シーン2">
+                        <div class="gallery-overlay">
+                            <h4>千年女優</h4>
+                            <p>時代を超えた愛の物語</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="millennium-actress">
+                        <img src="images/millennium-actress-3.jpg" alt="千年女優 シーン3">
+                        <div class="gallery-overlay">
+                            <h4>千年女優</h4>
+                            <p>映画の中の映画</p>
+                        </div>
+                    </div>
+
+                    <!-- 東京ゴッドファーザーズ -->
+                    <div class="gallery-item" data-category="tokyo-godfathers">
+                        <img src="images/tokyo-godfathers-1.jpg" alt="東京ゴッドファーザーズ シーン1">
+                        <div class="gallery-overlay">
+                            <h4>東京ゴッドファーザーズ</h4>
+                            <p>ホームレスの3人組</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="tokyo-godfathers">
+                        <img src="images/tokyo-godfathers-2.jpg" alt="東京ゴッドファーザーズ シーン2">
+                        <div class="gallery-overlay">
+                            <h4>東京ゴッドファーザーズ</h4>
+                            <p>クリスマスイブの奇跡</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="tokyo-godfathers">
+                        <img src="images/tokyo-godfathers-3.jpg" alt="東京ゴッドファーザーズ シーン3">
+                        <div class="gallery-overlay">
+                            <h4>東京ゴッドファーザーズ</h4>
+                            <p>現代の東京の風景</p>
+                        </div>
+                    </div>
+
+                    <!-- パプリカ -->
+                    <div class="gallery-item" data-category="paprika">
+                        <img src="images/paprika-1.jpg" alt="パプリカ シーン1">
+                        <div class="gallery-overlay">
+                            <h4>パプリカ</h4>
+                            <p>夢と現実の境界</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="paprika">
+                        <img src="images/paprika-2.jpg" alt="パプリカ シーン2">
+                        <div class="gallery-overlay">
+                            <h4>パプリカ</h4>
+                            <p>パプリカの姿</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="paprika">
+                        <img src="images/paprika-3.jpg" alt="パプリカ シーン3">
+                        <div class="gallery-overlay">
+                            <h4>パプリカ</h4>
+                            <p>無意識の深層</p>
+                        </div>
+                    </div>
+
+                    <!-- 妄想代理人 -->
+                    <div class="gallery-item" data-category="paranoia-agent">
+                        <img src="images/paranoia-agent-1.jpg" alt="妄想代理人 シーン1">
+                        <div class="gallery-overlay">
+                            <h4>妄想代理人</h4>
+                            <p>少年バット</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="paranoia-agent">
+                        <img src="images/paranoia-agent-2.jpg" alt="妄想代理人 シーン2">
+                        <div class="gallery-overlay">
+                            <h4>妄想代理人</h4>
+                            <p>現代社会の病理</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="paranoia-agent">
+                        <img src="images/paranoia-agent-3.jpg" alt="妄想代理人 シーン3">
+                        <div class="gallery-overlay">
+                            <h4>妄想代理人</h4>
+                            <p>都市伝説の誕生</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="artwork-showcase">
+            <div class="container">
+                <h3>アートワーク・設定資料</h3>
+                <div class="artwork-grid">
+                    <div class="artwork-item">
+                        <a href="images/character-design-1.jpg" target="_blank">
+                            <img src="images/character-design-1.jpg" alt="キャラクターデザイン">
+                        </a>
+                        <h4>キャラクターデザイン</h4>
+                        <p>今敏監督によるキャラクター設定画</p>
+                    </div>
+                    <div class="artwork-item">
+                        <a href="images/background-art-1.jpg" target="_blank">
+                            <img src="images/background-art-1.jpg" alt="背景美術">
+                        </a>
+                        <h4>背景美術</h4>
+                        <p>緻密に描かれた背景画</p>
+                    </div>
+                    <div class="artwork-item">
+                        <a href="images/storyboard-1.jpg" target="_blank">
+                            <img src="images/storyboard-1.jpg" alt="絵コンテ">
+                        </a>
+                        <h4>絵コンテ</h4>
+                        <p>今敏監督直筆の絵コンテ</p>
+                    </div>
+                    <div class="artwork-item">
+                        <a href="images/color-script-1.jpg" target="_blank">
+                            <img src="images/color-script-1.jpg" alt="カラー脚本">
+                        </a>
+                        <h4>カラー脚本</h4>
+                        <p>色彩設計の参考資料</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="behind-scenes">
+            <div class="container">
+                <h3>制作秘話</h3>
+                <div class="behind-scenes-content">
+                    <div class="behind-scenes-text">
+                        <p>今敏監督の作品は、その革新的な映像表現と深いテーマ性で知られています。</p>
+                        <p>現実と幻想の境界を曖昧にする独特の演出手法や、人間の心理を深く描いた物語は、</p>
+                        <p>従来のアニメーションの枠を超えた芸術作品として高い評価を受けています。</p>
+                        <p>このギャラリーでは、今敏監督の作品の美しい映像と、制作過程で生まれた貴重なアートワークをご紹介しています。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>今敏 公式サイト</h4>
+                    <p><a href="https://konstone.s-kon.net/" target="_blank">今 敏 オフィシャル・サイト</a></p>
+                </div>
+                <div class="footer-section">
+                    <h4>リンク</h4>
+                    <ul>
+                        <li><a href="index.html">ホーム</a></li>
+                        <li><a href="works.html">作品紹介</a></li>
+                        <li><a href="biography.html">経歴・活動</a></li>
+                        <li><a href="gallery.html">ギャラリー</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>お問い合わせ</h4>
+                    <p>info@kon-satoshi.jp</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 今敏 公式サイト. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // ギャラリーフィルター機能
+        document.addEventListener('DOMContentLoaded', function() {
+            const filterButtons = document.querySelectorAll('.filter-btn');
+            const galleryItems = document.querySelectorAll('.gallery-item');
+
+            filterButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    const filter = this.getAttribute('data-filter');
+                    
+                    // アクティブボタンの更新
+                    filterButtons.forEach(btn => btn.classList.remove('active'));
+                    this.classList.add('active');
+                    
+                    // アイテムの表示/非表示
+                    galleryItems.forEach(item => {
+                        if (filter === 'all' || item.getAttribute('data-category') === filter) {
+                            item.style.display = 'block';
+                        } else {
+                            item.style.display = 'none';
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+</html> 
